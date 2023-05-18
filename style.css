@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;700&family=Montserrat:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(#000, #292929, #4e4e4e);
+    background-attachment: fixed;
+}
+.kanban{
+    display: flex;
+    justify-content: center;
+    min-width: 400px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.column{
+    padding: 10px;
+    min-width: 200px;
+    border-radius: 5px;
+    background-color: #4e4e4e;
+}
+
+span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-size: 27px;
+}
+
+#titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dragging{
+    opacity: 0.5;
+}
+
+button{
+    border-radius: 5px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: #fff;
+    background-color: #000;
+    font-size: 15px;
+    padding: 3px 13px;
+}
